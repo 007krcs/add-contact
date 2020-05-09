@@ -1,7 +1,6 @@
 import React, { Fragment } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Dashboard from "./components/Dashboard";
-//import Login from "./components/Login";
 import "./App.css";
 
 class App extends React.Component {
