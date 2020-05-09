@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+}
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.container {
+  max-width: 50%;
+  margin: auto;
+}
+
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn-login {
+  background-color: #4caf50;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  opacity: 0.9;
+}
+
+.btn-login:hover {
+  opacity: 1;
+}
+
+.isDanger {
+  color: red;
+  font-size: small;
+}
+.data-container {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20% 20%;
+}
+.table-container {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20% 20%;
+}
+.common-row {
+  text-align: left;
+  padding: 8px 8px 8px 0px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.data-container {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+.btn {
+  color: blue;
+  float: left;
+  display: contents;
+}
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+  text-align: center;
+}
+
+/* Modal Content/Box */
+.modal-container {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.modal-none {
+  display: none;
+}
+.modal-block {
+  display: block;
+}
+
+.form-control {
+  border-radius: 1px solid rgb(61, 21, 112);
+  margin: 1%;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+input[type='text'],
+input[type='email'].form-control {
+  width: 16%;
+  padding: 12px;
+  margin: 8px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.modal-button {
+  background-color: #3d1d94;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+  border-radius: 15px;
+}
+.modal-button-open {
+  background-color: #479e0d;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px;
+  border: none;
+  cursor: pointer;
+  width: 17%;
+  border-radius: 15px;
+}
+.modal-button,
+.modal-button-open:hover {
+  opacity: 0.8;
+}
+.editableClass {
+  margin: 8px;
+}
+.content {
+  text-align: left;
+}
+.typeBtn {
+  float: none;
+  color: blue;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+}
